@@ -21,7 +21,7 @@ We are located on the stunning UC Santa Cruz campus, embedded in a redwood fores
 include list.html
 data="members"
 component="portrait"
-filters="role pi"
+filters="role: pi"
 %}
 
 {%
