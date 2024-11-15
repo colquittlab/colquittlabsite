@@ -1,6 +1,6 @@
 ---
 name: Mathew Sarti
-description: Jr Specialist
+description: Junior Specialist
 role: tech
 image: images/Sarti-Mathew.JPG
 aliases:
