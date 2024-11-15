@@ -1,33 +1,32 @@
-{{ " " }}
+{% if include.link %}
+  {% assign tag = "a" %}
+{% else %}
+  {% assign tag = "span" %}
+{% endif %}
+
 <div class="card" data-style="{{ include.style }}">
-  <a
-    {% if include.link %}
-      href="{{ include.link | relative_url | uri_escape }}"
-    {% endif %}
-    aria-label="{{ include.title | default: "card link" | regex_strip }}"
+  <{{ tag }}
+    href="{{ include.link | relative_url }}"
     class="card-image"
   >
     <img
-      src="{{ include.image | relative_url | uri_escape }}"
-      alt="{{ include.title | default: "card image" | regex_strip }}"
+      src="{{ include.image | relative_url }}"
       loading="lazy"
       {% include fallback.html %}
     >
-  </a>
+  </{{ tag }}>
 
   <div class="card-text">
     {% if include.title %}
-      <a
-        {% if include.link %}
-          href="{{ include.link | relative_url | uri_escape }}"
-        {% endif %}
+      <{{ tag }}
+        href="{{ include.link | relative_url }}"
         {% if include.tooltip %}
-          data-tooltip="{{ include.tooltip | xml_escape }}"
+          data-tooltip="{{ include.tooltip }}"
         {% endif %}
         class="card-title"
       >
         {{ include.title }}
-    </a>
+      </{{ tag }}>
     {% endif %}
 
     {% if include.subtitle %}
@@ -35,9 +34,7 @@
     {% endif %}
 
     {% if include.description %}
-      <p>
-        {{ include.description | markdownify | remove: "<p>" | remove: "</p>" }}
-      </p>
+      {{ include.description | markdownify }}
     {% endif %}
 
     {% if include.tags or include.repo %}

@@ -2,9 +2,11 @@
   {%- capture inline -%}
     {%- include {{ include.icon }} -%}
   {%- endcapture -%}
-  <span class="icon">
-    {{- inline | strip_newlines -}}
-  </span>
+  {{- inline |
+    strip_newlines |
+    replace: '<svg ', '<svg class="icon" ' |
+    replace: 'class="', 'class="icon '
+  -}}
 {%- elsif include.icon and include.icon != "" -%}
   <i class="icon {{ include.icon }}"></i>
 {%- endif -%}

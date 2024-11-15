@@ -5,6 +5,7 @@
   rel="stylesheet"
 />
 
+
 <!-- include all sass in styles folder -->
 {% assign styles = site.pages
   | where_exp: "file", "file.url contains '/_styles'"
@@ -23,6 +24,7 @@
   | where_exp: "file",
     "file.path contains '/_styles' and file.path contains '.css'"
 %}
+
 {% for style in styles %}
   <link href="{{ style.path | relative_url }}" rel="stylesheet" />
 {% endfor %}

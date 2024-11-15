@@ -7,13 +7,14 @@
       class="button"
       href="{{ button.link | replace: "$LINK", button.link | relative_url }}"
       {% if button.tooltip %}
-        data-tooltip="{{ button.tooltip | xml_escape }}"
+        data-tooltip="{{ button.tooltip }}"
       {% endif %}
-      data-style="{{ include.style }}"
+      {% if include.style %}
+        data-style="{{ include.style }}"
+      {% endif %}
       {% if include.flip %}
         data-flip
       {% endif %}
-      aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
     >
       {% include icon.html icon=button.icon %}
       {% if button.text and button.text != "" %}

@@ -3,10 +3,8 @@
 
 <footer
   class="background"
-  style="--image: url('{{ image | relative_url | uri_escape }}')"
-  {% if dark == true or dark == false %}
-    data-dark="{{ dark }}"
-  {% endif %}
+  style="--image: url('{{ image }}')"
+  data-dark="{{ dark }}"
   data-size="wide"
 >
   <!--
@@ -36,7 +34,6 @@
     type="checkbox"
     class="dark-toggle"
     data-tooltip="Dark mode"
-    aria-label="toggle dark mode"
     oninput="onDarkToggleChange(event)"
   >
 </footer>
