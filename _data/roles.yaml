@@ -18,6 +18,10 @@ tech:
   icon: fas fa-flask
   text: Research Technician
 
+alum:
+  icon: fas fa-flask
+  text: Alum
+
 programmer:
   icon: fas fa-code
   text: Programmer

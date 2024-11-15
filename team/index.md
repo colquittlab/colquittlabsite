@@ -28,35 +28,35 @@ filters="role==pi"
 include list.html
 data="members"
 component="portrait"
-filters="role == postdoc"
+filters="role==postdoc"
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == phd"
+filters="role==phd"
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == programmer"
+filters="role==programmer"
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == tech"
+filters="role==tech"
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == undergrad"
+filters="role==undergrad"
 %}
 
 {:.center}
@@ -69,7 +69,7 @@ filters="role == undergrad"
 include list.html
 data="members"
 component="portrait"
-filters="role == alum"
+filters="role==alum"
 %}
 
 
