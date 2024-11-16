@@ -8,7 +8,7 @@ nav:
 # <i class="fas fa-envelope"></i>Contact
 {:.center}
 
-Our lab is part of the [Department of Molecular, Cell, and Developmental Biology](https://mcd.ucsc.edu/) at [UC Santa Cruz](https://www.ucsc.edu) and affiliated with the [UCSC Genomics Institute](https://genomics.ucsc.edu/) and [UCSC Institute for the Biology of Stem Cells](https://ibsc.ucsc.edu/)
+Our lab is part of the [Department of Molecular, Cell, and Developmental Biology](https://mcd.ucsc.edu/) at [UC Santa Cruz](https://www.ucsc.edu) and is affiliated with the [UCSC Genomics Institute](https://genomics.ucsc.edu/) and [UCSC Institute for the Biology of Stem Cells](https://ibsc.ucsc.edu/)
 {:.center}
 
 {% include section.html background="images/2-28-20-UCSC-Arial-SLM.jpg" full=true dark=false %}
