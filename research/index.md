@@ -19,7 +19,7 @@ Birdsong is controlled by a dedicated set of interconnected brain regions that i
 
 {%
   include feature.html
-  image="images/diversification_v1.png"
+  image="images/diversification_v2_dpi300.png"
   title="Neural circuit diversification"
   text=text
 %}
@@ -33,7 +33,7 @@ Vocal learning in humans and many songbirds features a sensitive (critical) peri
 {%
   include feature.html
   image="images/tutoring_v5_square.png"
-  title="Influence of experience on sensorimotor circuit development"
+  title="Molecular mechanisms of motor skill stabilization"
   text=text
   flip=true
 %}
