@@ -21,42 +21,43 @@ We are located on the stunning UC Santa Cruz campus, embedded in a redwood fores
 include list.html
 data="members"
 component="portrait"
-filters="role == 'pi'"
+filter="role == 'pi'"
+icon=null
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == 'postdoc'"
+filter="role == 'postdoc'"
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == 'phd'"
+filter="role == 'phd'"
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == 'programmer'"
+filter="role == 'programmer'"
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == 'tech'"
+filter="role == 'tech'"
 %}
 
 {%
 include list.html
 data="members"
 component="portrait"
-filters="role == 'undergrad'"
+filter="role == 'undergrad'"
 %}
 
 {:.center}
@@ -69,7 +70,7 @@ filters="role == 'undergrad'"
 include list.html
 data="members"
 component="portrait"
-filters="role == 'alum'"
+filter="role == 'alum'"
 %}
 
 
