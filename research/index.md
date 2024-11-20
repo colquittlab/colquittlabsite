@@ -53,3 +53,36 @@ The lab studies the similarities and differences in the cellular composition, or
   title="Evolution of motor control"
   text=text
 %}
+
+
+
+{% include section.html %}
+
+# Funding
+{:.center}
+
+
+{% capture col1 %}
+
+{%
+  include figure.html
+  image="images/ninds-logo.png"
+  width="auto"
+%}
+{% endcapture %}
+{% capture col2 %}
+
+{%
+  include figure.html
+  image="images/hellmans.png"
+  width="auto"
+%}
+{% endcapture %}
+
+{%
+  include cols.html
+  col1=col1
+  col2=col2
+%}
+
+
