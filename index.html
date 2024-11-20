@@ -44,6 +44,7 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Home | Colquitt Lab at UCSC</title>
@@ -56,13 +57,13 @@
 <meta property="og:title" content="Home">
 <meta property="og:site_title" content="Colquitt Lab at UCSC">
 <meta property="og:description" content="">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://colquitt-lab.com">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Home">
 <meta property="twitter:description" content="">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="https://colquitt-lab.com">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -83,7 +84,7 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "https://colquitt-lab.com"
   }
 </script>
 
@@ -97,15 +98,14 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
 <link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
-
 
 <!-- include all sass in styles folder -->
 
@@ -349,11 +349,9 @@
 
 
 
-
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
-
 <script src="https://unpkg.com/mark.js@8" defer></script>
 
 <!-- include all js in scripts folder -->
@@ -385,9 +383,7 @@
 
 
 
-
 <header class="background" style="--image: url('/images/black.png')" data-dark="true" data-big>
-
   <a href="/" class="home">
     
       <span class="logo">
@@ -468,17 +464,14 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Colquitt Lab at UCSC</span>
+          <span class="title">Colquitt Lab at UCSC</span>
         
         
       </span>
     
   </a>
-
-
-  <img src="/images/waveform_small.png" alt="">
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
@@ -513,12 +506,10 @@
 </header>
 
     <main>
-      
-<!--
+      <!--
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
 
@@ -527,13 +518,11 @@
 
 
 
-
-
   
   
   
 
-  <section class="background" data-size="page" data-dark="true" style="--image: url('/images/banner_image_1280.png')">
+  <section class="background" data-size="page" data-dark="true">
     <!--
   background: images/banner_image_1280.png;
   dark: true;
@@ -557,7 +546,7 @@
   
   
 
-  <section class="background" data-size="page" data-dark="">
+  <section class="background" data-size="page">
     <!--
   background: ;
   dark: ;
@@ -569,11 +558,11 @@
     
     <div>
 <figure class="figure">
-  <a href="" class="figure-link">
-    <img src="/images/song-system.png" class="figure-image" alt="" title="" style="
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/song-system.png" style="
         width: auto;
         max-height: unset;
-      " loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
@@ -583,11 +572,11 @@
     
     <div>
 <figure class="figure">
-  <a href="" class="figure-link">
-    <img src="/images/song_learning_schematic.png" class="figure-image" alt="" title="" style="
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/song_learning_schematic.png" style="
         width: auto;
         max-height: unset;
-      " loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
@@ -597,11 +586,11 @@
     
     <div>
 <figure class="figure">
-  <a href="" class="figure-link">
-    <img src="/images/science_all_cells_umap.png" class="figure-image" alt="" title="" style="
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/science_all_cells_umap.png" style="
         width: auto;
         max-height: unset;
-      " loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   
 </figure>
@@ -615,7 +604,7 @@
   
   
 
-  <section class="background" data-size="page" data-dark="">
+  <section class="background" data-size="page">
     <!--
   background: ;
   dark: ;
@@ -630,7 +619,7 @@
   
   
 
-  <section class="background" data-size="page" data-dark="">
+  <section class="background" data-size="page">
     <!--
   background: ;
   dark: ;
@@ -638,8 +627,8 @@
 -->
 
 <div class="feature">
-  <a href="/research" class="feature-image">
-    <img src="/images/banner_image_96dpi.png" loading="lazy" alt="">
+  <a href="/research" class="feature-image" aria-label="Our Research">
+    <img src="/images/banner_image_96dpi.png" loading="lazy" alt="Our Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -660,8 +649,8 @@
 </div>
 
 <div class="feature">
-  <a href="/team" class="feature-image">
-    <img src="/images/BF_pic.png" loading="lazy" alt="">
+  <a href="/team" class="feature-image" aria-label="Our Team">
+    <img src="/images/BF_pic.png" loading="lazy" alt="Our Team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -698,7 +687,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:colquitt@ucsc.edu" data-tooltip="Email" data-style="bare">
+    <a class="button" href="mailto:colquitt@ucsc.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -713,7 +702,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=wkjT3poAAAAJ" data-tooltip="Google Scholar" data-style="bare">
+    <a class="button" href="https://scholar.google.com/citations?user=wkjT3poAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
       <i class="icon fa-brands fa-google"></i>
       
     </a>
@@ -728,7 +717,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/colquittlab" data-tooltip="GitHub" data-style="bare">
+    <a class="button" href="https://github.com/colquittlab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
       
     </a>
@@ -743,7 +732,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://twitter.com/bradleycolquitt" data-tooltip="Twitter" data-style="bare">
+    <a class="button" href="https://twitter.com/bradleycolquitt" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
       <i class="icon fa-brands fa-twitter"></i>
       
     </a>
@@ -762,7 +751,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

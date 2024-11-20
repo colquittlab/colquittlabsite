@@ -44,6 +44,7 @@
 
 
 
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Research | Colquitt Lab at UCSC</title>
@@ -56,13 +57,13 @@
 <meta property="og:title" content="Research">
 <meta property="og:site_title" content="Colquitt Lab at UCSC">
 <meta property="og:description" content="">
-<meta property="og:url" content="">
+<meta property="og:url" content="https://colquitt-lab.com">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Research">
 <meta property="twitter:description" content="">
-<meta property="twitter:url" content="">
+<meta property="twitter:url" content="https://colquitt-lab.com">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
 
@@ -83,7 +84,7 @@
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
     },
-    "url": ""
+    "url": "https://colquitt-lab.com"
   }
 </script>
 
@@ -97,15 +98,14 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
 <!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
 <link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
-
 
 <!-- include all sass in styles folder -->
 
@@ -349,11 +349,9 @@
 
 
 
-
   <!-- third party scripts -->
 <script src="https://unpkg.com/@popperjs/core@2" defer></script>
 <script src="https://unpkg.com/tippy.js@6" defer></script>
-
 <script src="https://unpkg.com/mark.js@8" defer></script>
 
 <!-- include all js in scripts folder -->
@@ -385,9 +383,7 @@
 
 
 
-
 <header class="background" style="--image: url('/images/black.png')" data-dark="true">
-
   <a href="/" class="home">
     
       <span class="logo">
@@ -468,17 +464,14 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
-          <span>Colquitt Lab at UCSC</span>
+          <span class="title">Colquitt Lab at UCSC</span>
         
         
       </span>
     
   </a>
-
-
-  <img src="/images/waveform_small.png" alt="">
 
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
@@ -513,12 +506,10 @@
 </header>
 
     <main>
-      
-<!--
+      <!--
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
 
@@ -527,13 +518,11 @@
 
 
 
-
-
   
   
   
 
-  <section class="background" data-size="page" data-dark="">
+  <section class="background" data-size="page">
     <h1 class="center" id="research">Research</h1>
   </section>
 
@@ -541,7 +530,7 @@
   
   
 
-  <section class="background" data-size="1" data-dark="">
+  <section class="background" data-size="1">
     <!--
   background: ;
   dark: ;
@@ -549,8 +538,8 @@
 -->
 
 <div class="feature">
-  <a href="" class="feature-image">
-    <img src="/images/diversification_v2_dpi300.png" loading="lazy" alt="">
+  <a class="feature-image" aria-label="Neural circuit diversification">
+    <img src="/images/diversification_v2_dpi300.png" loading="lazy" alt="Neural circuit diversification" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -570,7 +559,7 @@
   
   
 
-  <section class="background" data-size="page" data-dark="">
+  <section class="background" data-size="page">
     <!--
   background: ;
   dark: ;
@@ -578,8 +567,8 @@
 -->
 
 <div class="feature" data-flip="">
-  <a href="" class="feature-image">
-    <img src="/images/tutoring_v5_square.png" loading="lazy" alt="">
+  <a class="feature-image" aria-label="Molecular mechanisms of motor skill stabilization">
+    <img src="/images/tutoring_v5_square.png" loading="lazy" alt="Molecular mechanisms of motor skill stabilization" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -596,7 +585,7 @@
   
   
 
-  <section class="background" data-size="page" data-dark="">
+  <section class="background" data-size="page">
     <!--
   background: ;
   dark: ;
@@ -604,8 +593,8 @@
 -->
 
 <div class="feature">
-  <a href="" class="feature-image">
-    <img src="/images/motor_evolution_square.png" loading="lazy" alt="">
+  <a class="feature-image" aria-label="Evolution of motor control">
+    <img src="/images/motor_evolution_square.png" loading="lazy" alt="Evolution of motor control" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
     
@@ -617,6 +606,52 @@
 <p>The lab studies the similarities and differences in the cellular composition, organization, and developmental histories of these motor systems, to understand how similar neural circuits can develop from distinct developmental starting points.</p>
 
   </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h1 class="center" id="funding">Funding</h1>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/ninds-logo.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/hellmans.png" style="
+        width: auto;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+</div>
+  
 </div>
   </section>
 
@@ -641,7 +676,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:colquitt@ucsc.edu" data-tooltip="Email" data-style="bare">
+    <a class="button" href="mailto:colquitt@ucsc.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
@@ -656,7 +691,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=wkjT3poAAAAJ" data-tooltip="Google Scholar" data-style="bare">
+    <a class="button" href="https://scholar.google.com/citations?user=wkjT3poAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
       <i class="icon fa-brands fa-google"></i>
       
     </a>
@@ -671,7 +706,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://github.com/colquittlab" data-tooltip="GitHub" data-style="bare">
+    <a class="button" href="https://github.com/colquittlab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
       <i class="icon fa-brands fa-github"></i>
       
     </a>
@@ -686,7 +721,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://twitter.com/bradleycolquitt" data-tooltip="Twitter" data-style="bare">
+    <a class="button" href="https://twitter.com/bradleycolquitt" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
       <i class="icon fa-brands fa-twitter"></i>
       
     </a>
@@ -705,7 +740,7 @@
     </a>
   </div>
 
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" oninput="onDarkToggleChange(event)">
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>
