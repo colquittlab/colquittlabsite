@@ -80,7 +80,7 @@ filters="role == 'alum'"
 {:.center}
 
 {% include figure.html
-image="images/lab_photo_231219.jpg"
+image="images/lab_photo_holiday_2024.jpg"
 %}
 
 ### Postdoctoral Researcher
