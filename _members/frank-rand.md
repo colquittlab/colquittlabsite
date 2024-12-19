@@ -2,7 +2,7 @@
 name: Frank Rand
 description: Graduate Student, MCDB
 role: phd
-image: images/trasparent_slinch_3.png
+image: images/frank-rand.png
 aliases:
   - F. Rand
 links:

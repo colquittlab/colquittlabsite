@@ -3,27 +3,6 @@ title: Home
 ---
 
 
-{%
-  include section.html
-  background="images/banner_image_1280.png"
-  dark=true
-  size=full
-%}
-
-<br>
-# Development and evolution of complex motor skills
-{:.center}
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
 {% include section.html %}
 
 {% capture col1 %}

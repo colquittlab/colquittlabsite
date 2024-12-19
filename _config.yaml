@@ -1,7 +1,8 @@
 title: Colquitt Lab at UCSC
+subtitle: development and evolution of complex motor skills
 description:
 logo-text: true
-header: images/black.png
+header: images/monterey_bay_thin.png
 footer: images/black.png
 header-dark: true
 baseurl: ""
@@ -41,13 +42,23 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
+
+# code block syntax highlighting
 highlighter: rouge
+
+# jekyll theme
 theme: null
+
+# sass settings
 sass:
   sass_dir: _styles
+
+# force jekyll to include certain files/folders
 include:
   - _styles
   - _scripts
+
+# force jekyll to exclude certain files/folders
 exclude:
   - README.md
   - LICENSE.md
