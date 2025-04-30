@@ -2,7 +2,7 @@
 name: Eva Katcher
 description: Junior Specialist
 role: tech
-image: images/trasparent_slinch_3.png
+image: images/eva-katcher.jpg
 aliases:
   - E. Katcher
 links:
