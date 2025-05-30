@@ -1,7 +1,7 @@
 ---
 name: Keerthi Varadharaj
 description: Undergraduate Researcher
-image: images/keerthi.jpeg
+image: images/keerthi_crop.png
 role: undergrad
 aliases:
   - K. Varadharaj
