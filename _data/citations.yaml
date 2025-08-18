@@ -1,5 +1,75 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2025.08.16.670679
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2025.05.01.651773
+  title: Self-Organizing Neural Networks in Organoids Reveal Principles of Forebrain
+    Circuit Assembly
+  authors:
+  - Sebastian Hernandez
+  - Hunter E. Schweiger
+  - Isabel Cline
+  - Gregory A. Kaurala
+  - Ash Robbins
+  - Daniel Solis
+  - Jinghui Geng
+  - Tjitse van der Molen
+  - Francisco Reyes
+  - Chinweike Norman Asogwa
+  - Kateryna Voitiuk
+  - Mattia Chini
+  - Marco Rolandi
+  - Sofie R. Salama
+  - Bradley M. Colquitt
+  - Tal Sharf
+  - David Haussler
+  - Mircea Teodorescu
+  - Mohammed A. Mostajo-Radji
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-05-02'
+  link: https://doi.org/g9xb47
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/2023.12.29.573646
+  title: Protosequences in brain organoids model intrinsic brain states
+  authors:
+  - Tjitse van der Molen
+  - Alex Spaeth
+  - Mattia Chini
+  - Sebastian Hernandez
+  - Gregory A. Kaurala
+  - Hunter E. Schweiger
+  - Cole Duncan
+  - Sawyer McKenna
+  - Jinghui Geng
+  - Max Lim
+  - Julian Bartram
+  - Aditya Dendukuri
+  - Zongren Zhang
+  - Jesus Gonzalez-Ferrer
+  - Kiran Bhaskaran-Nair
+  - Lon J. Blauvelt
+  - Cole R.K. Harder
+  - Linda R. Petzold
+  - Dowlette-Mary Alam El Din
+  - Jason Laird
+  - Maren Schenke
+  - Lena Smirnova
+  - Bradley M. Colquitt
+  - Mohammed A. Mostajo-Radji
+  - Paul K. Hansma
+  - Mircea Teodorescu
+  - Andreas Hierlemann
+  - Keith B. Hengen
+  - Ileana L. Hanganu-Opatz
+  - Kenneth S. Kosik
+  - Tal Sharf
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-12-30'
+  link: https://doi.org/g9xb48
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.7554/eLife.85970
   title: Neural circuit-wide analysis of changes to gene expression during deafening-induced
     birdsong destabilization
