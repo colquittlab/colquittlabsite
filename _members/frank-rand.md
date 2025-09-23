@@ -1,6 +1,6 @@
 ---
 name: Frank Rand
-description: Graduate Student, MCDB
+description: PhD Student, MCDB
 role: phd
 image: images/frank-rand.png
 aliases:

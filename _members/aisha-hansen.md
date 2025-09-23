@@ -2,7 +2,7 @@
 name: Aisha Hansen
 description: Undergraduate Researcher
 image: images/aisha-hansen.png
-role: undergrad
+role: alum
 aliases:
   - A. Hansen
 links:

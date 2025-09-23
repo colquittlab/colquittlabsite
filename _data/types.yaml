@@ -11,6 +11,9 @@ postdoc:
 phd:
   description: PhD Student
 
+masters:
+  description: Master's Student
+
 undergrad:
   description: Undergraduate Student
 

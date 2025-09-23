@@ -1,7 +1,7 @@
 ---
 name: Mathew Sarti
-description: Junior Specialist
-role: tech
+description: Junior Specialist -> UC Davis Neuroscience PhD
+role: alum
 image: images/Sarti-Mathew.JPG
 aliases:
   - M. Sarti

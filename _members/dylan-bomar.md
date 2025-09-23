@@ -2,7 +2,7 @@
 name: Dylan Bomar
 description: Undergraduate Researcher
 image: images/DylanBomar_Headshot_7-3-2023.png
-role: undergrad
+role: alum
 aliases:
   - D. Bomar
 links:
