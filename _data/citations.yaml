@@ -1,5 +1,45 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41593-025-02111-0
+  title: Preconfigured neuronal firing sequences in human brain organoids
+  authors:
+  - Tjitse van der Molen
+  - Alex Spaeth
+  - Mattia Chini
+  - Sebastian Hernandez
+  - Gregory A. Kaurala
+  - Hunter E. Schweiger
+  - Cole Duncan
+  - Sawyer McKenna
+  - Jinghui Geng
+  - Max Lim
+  - Julian Bartram
+  - "Tobias G\xE4nswein"
+  - Aditya Dendukuri
+  - Zongren Zhang
+  - Jesus Gonzalez-Ferrer
+  - Kiran Bhaskaran-Nair
+  - Aidan L. Morson
+  - Cole R. K. Harder
+  - Linda R. Petzold
+  - Dowlette-Mary Alam El Din
+  - Jason Laird
+  - Maren Schenke
+  - Lena Smirnova
+  - Bradley M. Colquitt
+  - Mohammed A. Mostajo-Radji
+  - Paul K. Hansma
+  - Mircea Teodorescu
+  - Andreas Hierlemann
+  - Keith B. Hengen
+  - Ileana L. Hanganu-Opatz
+  - Kenneth S. Kosik
+  - Tal Sharf
+  publisher: Nature Neuroscience
+  date: '2025-11-24'
+  link: https://doi.org/hbccp4
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1101/2025.08.16.670679
   title: An interneuronal CRH and CRHBP circuit stabilizes birdsong performance
   authors:
@@ -37,45 +77,6 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2025-05-02'
   link: https://doi.org/g9xb47
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/2023.12.29.573646
-  title: Protosequences in brain organoids model intrinsic brain states
-  authors:
-  - Tjitse van der Molen
-  - Alex Spaeth
-  - Mattia Chini
-  - Sebastian Hernandez
-  - Gregory A. Kaurala
-  - Hunter E. Schweiger
-  - Cole Duncan
-  - Sawyer McKenna
-  - Jinghui Geng
-  - Max Lim
-  - Julian Bartram
-  - Aditya Dendukuri
-  - Zongren Zhang
-  - Jesus Gonzalez-Ferrer
-  - Kiran Bhaskaran-Nair
-  - Lon J. Blauvelt
-  - Cole R.K. Harder
-  - Linda R. Petzold
-  - Dowlette-Mary Alam El Din
-  - Jason Laird
-  - Maren Schenke
-  - Lena Smirnova
-  - Bradley M. Colquitt
-  - Mohammed A. Mostajo-Radji
-  - Paul K. Hansma
-  - Mircea Teodorescu
-  - Andreas Hierlemann
-  - Keith B. Hengen
-  - Ileana L. Hanganu-Opatz
-  - Kenneth S. Kosik
-  - Tal Sharf
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-12-30'
-  link: https://doi.org/g9xb48
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.7554/eLife.85970
