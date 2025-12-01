@@ -40,14 +40,14 @@
   link: https://doi.org/hbccp4
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1101/2025.08.16.670679
+- id: doi:10.7554/eLife.109232.1
   title: An interneuronal CRH and CRHBP circuit stabilizes birdsong performance
   authors:
-  - Bradley M. Colquitt
-  - Michael S. Brainard
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-08-17'
-  link: https://doi.org/g9zg5v
+  - Bradley M Colquitt
+  - Michael S Brainard
+  publisher: eLife Sciences Publications, Ltd
+  date: '2025-11-26'
+  link: https://doi.org/hbc43g
   image: images/fig6_crh_circuit_v5_g.png
   plugin: sources.py
   file: sources.yaml
