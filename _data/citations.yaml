@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/acs.jnatprod.5c01555
+  title: "MALDI-FISH for Colocalization of Brominated Metabolites and\n          \
+    \          <i>Pseudovibrio</i>\n                    spp. in\n                \
+    \    <i>Aplysina</i>\n                    Tissue"
+  authors:
+  - Allyson McAtamney
+  - Cayla Lagousis
+  - Bradley M. Colquitt
+  - Lucia Pita
+  - Alessandra S. Eustaquio
+  - Laura M. Sanchez
+  publisher: Journal of Natural Products
+  date: '2026-02-12'
+  link: https://doi.org/hbpghp
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1038/s41593-025-02111-0
   title: Preconfigured neuronal firing sequences in human brain organoids
   authors:
