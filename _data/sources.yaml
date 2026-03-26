@@ -1,3 +1,5 @@
+- id: doi:10.1016/j.stemcr.2026.102832 
+
 - id: doi:10.1021/acs.jnatprod.5c01555
 
 - id: doi:10.1038/s41593-025-02111-0
@@ -5,7 +7,7 @@
 - id: doi:10.7554/eLife.109232.1
   image: images/fig6_crh_circuit_v5_g.png
 
-- id: doi:10.1101/2025.05.01.651773
+#- id: doi:10.1101/2025.05.01.651773
 
 - id: doi:10.7554/eLife.85970
   image: images/colquitt_2023_elife_network.png
