@@ -1,5 +1,34 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.stemcr.2026.102832
+  title: Establishing mouse forebrain organoids as models of intrinsic cortical network
+    assembly
+  authors:
+  - Sebastian Hernandez
+  - Hunter E. Schweiger
+  - Isabel Cline
+  - Gregory A. Kaurala
+  - Ash Robbins
+  - Daniel Solis
+  - Samira Vera-Choqqueccota
+  - Jinghui Geng
+  - Tjitse van der Molen
+  - Francisco Reyes
+  - Chinweike Norman Asogwa
+  - Kateryna Voitiuk
+  - Mattia Chini
+  - Marco Rolandi
+  - Sofie R. Salama
+  - Bradley M. Colquitt
+  - Tal Sharf
+  - David Haussler
+  - Mircea Teodorescu
+  - Mohammed A. Mostajo-Radji
+  publisher: Stem Cell Reports
+  date: '2026-03-01'
+  link: https://doi.org/hbtzdd
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1021/acs.jnatprod.5c01555
   title: "MALDI-FISH for Colocalization of Brominated Metabolites and\n          \
     \          <i>Pseudovibrio</i>\n                    spp. in\n                \
@@ -65,34 +94,6 @@
   date: '2025-11-26'
   link: https://doi.org/hbc43g
   image: images/fig6_crh_circuit_v5_g.png
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/2025.05.01.651773
-  title: Self-Organizing Neural Networks in Organoids Reveal Principles of Forebrain
-    Circuit Assembly
-  authors:
-  - Sebastian Hernandez
-  - Hunter E. Schweiger
-  - Isabel Cline
-  - Gregory A. Kaurala
-  - Ash Robbins
-  - Daniel Solis
-  - Jinghui Geng
-  - Tjitse van der Molen
-  - Francisco Reyes
-  - Chinweike Norman Asogwa
-  - Kateryna Voitiuk
-  - Mattia Chini
-  - Marco Rolandi
-  - Sofie R. Salama
-  - Bradley M. Colquitt
-  - Tal Sharf
-  - David Haussler
-  - Mircea Teodorescu
-  - Mohammed A. Mostajo-Radji
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-05-02'
-  link: https://doi.org/g9xb47
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.7554/eLife.85970
