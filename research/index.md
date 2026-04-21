@@ -8,26 +8,32 @@ nav:
 # Research
 {:.center}
 
-{% include section.html full=true %}
+{% include section.html %}
 
 {% capture text %}
-Complex, learned motor skills involve the coordination of activity across multiple neural types and brain regions. How do such interconnected neural circuits co-develop? And what can these developmental mechanisms tell us about the evolution of neural circuits and the behaviors they support?
+Complex learned behaviors require the coordinated activity of multiple specialized neuron types across interconnected brain regions. How do such circuits arise during development, and what makes them distinct from neighboring, unspecialized regions?
 
-Birdsong is controlled by a dedicated set of interconnected brain regions that is highly distinct from nearby sensorimotor regions, providing an excellent system to understand the molecular mechanisms that support neural circuit diversification. The lab uses cell-resolved molecular assays, spatial transcriptomics, and gene manipulations in songbirds to study these mechanisms.
+Birdsong is controlled by a dedicated set of brain nuclei — the song system — that is sharply demarcated from surrounding tissue and highly specialized for vocal-motor learning. This makes it an exceptional model for understanding how gene regulatory programs drive the emergence of circuit identity during development.
+
+The lab uses cell-resolved molecular assays, spatial transcriptomics, and targeted gene manipulation in songbirds to decode the transcriptional logic that builds specialized circuits from a common developmental substrate.
 
 {% endcapture %}
 
 {%
   include feature.html
   image="images/diversification_v2_dpi300.png"
-  title="Neural circuit diversification"
+  title="Neural circuit specialization"
   text=text
+  contain=true
 %}
 
 {% include section.html %}
 
 {% capture text %}
-Vocal learning in humans and many songbirds features a sensitive (critical) period for learning during early postnatal development, suggesting that vocal learning circuits begin in a plastic state that is sensitive to auditory signals and then transition to a stable state that is optimized for performance. The lab studies the molecular mechanisms in vocal learning circuits that mediate this transition from plasticity to stability and whether these mechanisms can be leveraged to increase neural plasticity.
+Like human speech, birdsong is learned during a sensitive period early in life. Young birds listen to an adult tutor, form a memory of the target song, and then practice until their own vocalizations converge on that template. This sensorimotor learning process is guided by a molecular program that opens a plastic window during development and then closes it as the circuit matures.
+
+We study the molecular mechanisms that control this transition from plasticity to stability — asking which genes gate the sensitive period, how auditory experience modifies gene expression in vocal circuits, and whether these mechanisms can be leveraged to restore plasticity in adulthood.
+
 {% endcapture %}
 
 {%
@@ -35,32 +41,31 @@ Vocal learning in humans and many songbirds features a sensitive (critical) peri
   image="images/tutoring_v5_square.png"
   title="Molecular mechanisms of motor skill stabilization"
   text=text
+  contain=true
   flip=true
 %}
-
 
 {% include section.html %}
 
 {% capture text %}
-Despite having strikingly different brain organizations, birds display a range of motor and cognitive abilities that rival or surpass the performance of many mammals. Remarkably, avian motor circuits are located in a distinct neural region from mammalian motor circuits, consistent with the independent evolution of pallial motor control in birds and mammals.
+Vocal learning has evolved independently in songbirds, hummingbirds, parrots, cetaceans, and humans. Despite very different brain architectures, these lineages converge on remarkably similar circuit solutions — dedicated forebrain regions that connect auditory memory to motor output.
 
-The lab studies the similarities and differences in the cellular composition, organization, and developmental histories of these motor systems, to understand how similar neural circuits can develop from distinct developmental starting points.
+We compare the cellular composition, molecular identity, and developmental histories of vocal motor circuits across species and between birds and mammals. Our goal is to understand how similar neural circuits can arise from distinct developmental starting points, illuminating the deep logic of motor circuit evolution.
+
 {% endcapture %}
 
 {%
   include feature.html
   image="images/motor_evolution_square.png"
-  title="Evolution of motor control"
+  title="Evolution of vocal motor circuits"
   text=text
+  contain=true
 %}
-
-
 
 {% include section.html %}
 
 # Funding
 {:.center}
-
 
 {% capture col1 %}
 
@@ -84,5 +89,3 @@ The lab studies the similarities and differences in the cellular composition, or
   col1=col1
   col2=col2
 %}
-
-

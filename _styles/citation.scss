@@ -32,6 +32,11 @@ $wrap: 800px;
   object-fit: contain;
 }
 
+[data-dark="true"] .citation-image img {
+  background: #ffffff;
+  padding: 8px;
+}
+
 .citation-text {
   position: relative;
   display: inline-flex;

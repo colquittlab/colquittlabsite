@@ -2,58 +2,27 @@
 title: Home
 ---
 
-
 {% include section.html %}
 
-{% capture col1 %}
-   {%
-    include figure.html
-    image="images/song-system.png"
-   %}
-{% endcapture %}
-
-{% capture col2 %}
-   {%
-    include figure.html
-    image="images/song_learning_schematic.png"
-   %}
-{% endcapture %}
-
-{% capture col3 %}
-   {%
-    include figure.html
-    image="images/science_all_cells_umap.png"
-   %}
-{% endcapture %}
-
-
-
-{%
-  include cols.html
-  col1=col1
-  col2=col2
-  col3=col3
-%}
-
-{% include section.html %}
-
-#### To understand the development and evolution of behavioral complexity, we study the mechanisms that drive the diversification of neurons and neural circuits in birds.
+### To understand the development and evolution of behavioral complexity, we study the molecular mechanisms that build and diversify neural circuits in birds.
 {:.center}
-#### We focus on the neural circuitry that is dedicated to the production and learning of birdsong, a spectacularly complex behavior that is a powerful model for understanding the neural mechanisms of sensorimotor development.
+
+We use birdsong — a complex learned motor skill with striking parallels to human speech — as a window into how dedicated neural circuits are constructed during development, refined through learning, and reshaped across evolution.
 {:.center}
 
 {% include section.html %}
 
 {% capture text %}
-Our lab combines advanced molecular techniques, bioinformatics, imaging, and behavioral analysis to understand:
+Our lab combines single-cell genomics, spatial transcriptomics, gene manipulation, and behavioral analysis to understand:
+
 - the gene regulatory networks that build birdsong neural circuitry during development
-- how these networks intersect with experience during birdsong learning
-- how modifications to these networks contributed to the evolution of birdsong and other complex learned behaviors.
+- how these networks intersect with sensory experience during vocal learning
+- how evolutionary modifications to these programs gave rise to the diversity of vocal learners
 
 {%
   include link.html
   link="research"
-  text="See what we're working on"
+  text="See our research"
   icon="fas fa-arrow-right"
   flip=true
 %}
@@ -63,16 +32,18 @@ Our lab combines advanced molecular techniques, bioinformatics, imaging, and beh
 
 {%
   include feature.html
-  image="images/banner_image_96dpi.png"
+  image="images/diversification_v2_dpi300.png"
   link="research"
   title="Our Research"
   text=text
+  contain=true
 %}
 
+{% include section.html %}
 
 {% capture text %}
 
-The Colquitt Lab opened in August of 2022, and we’re excited to build a team of stellar researchers.
+The Colquitt Lab opened in 2022 at UC Santa Cruz. We are building a diverse team of researchers passionate about the brain, development, and evolution.
 
 {%
   include link.html
@@ -87,8 +58,35 @@ The Colquitt Lab opened in August of 2022, and we’re excited to build a team o
 
 {%
   include feature.html
-  image="images/BF_pic.png"
+  image="images/lab_photo_holiday_2024.jpg"
   link="team"
   title="Our Team"
   text=text
+  flip=true
+%}
+
+{% include section.html %}
+
+{% capture text %}
+
+We publish our findings across neuroscience, genomics, and evolutionary biology.
+
+{%
+  include link.html
+  link="publications"
+  text="Browse publications"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
+
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/science_summary.svg"
+  link="publications"
+  title="Our Publications"
+  text=text
+  contain=true
 %}

@@ -7,26 +7,39 @@ $wrap: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin: 40px 0;
+  gap: 60px;
+  margin: 20px 0;
 }
 
 .feature-image {
   flex-shrink: 0;
-  width: 60%;
+  width: 50%;
   aspect-ratio: 3 / 2;
   border-radius: var(--rounded);
-  overflow: visible;
+  overflow: hidden;
   box-shadow: var(--shadow);
 }
 
 .feature-image img {
   width: 100%;
   height: 100%;
-  #width: 100%;
-  #height: 400px;
-  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.feature-image[data-contain] {
+  aspect-ratio: unset;
+  overflow: visible;
+}
+
+.feature-image[data-contain] img {
+  height: auto;
   object-fit: contain;
+}
+
+[data-dark="true"] .feature-image[data-contain] img {
+  background: #ffffff;
+  border-radius: var(--rounded);
+  padding: 12px;
 }
 
 .feature-text {
@@ -34,10 +47,10 @@ $wrap: 800px;
 }
 
 .feature-title {
-  font-size: var(--large);
-  text-align: center;
+  font-size: var(--xl);
   font-family: var(--heading);
-  font-weight: var(--semi-bold);
+  font-weight: var(--bold);
+  margin-bottom: 10px;
 }
 
 .feature[data-flip] {
@@ -47,6 +60,7 @@ $wrap: 800px;
 @media (max-width: $wrap) {
   .feature {
     flex-direction: column !important;
+    gap: 30px;
   }
 
   .feature-image {

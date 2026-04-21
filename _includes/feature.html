@@ -9,6 +9,7 @@
       href="{{ include.link | relative_url | uri_escape }}"
     {% endif %}
     class="feature-image"
+    {% if include.contain %}data-contain{% endif %}
     aria-label="{{ include.title | default: "feature link" | regex_strip }}"
   >
     <img
