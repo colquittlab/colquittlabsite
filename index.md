@@ -1,6 +1,16 @@
 ---
 title: Home
+no-big: true
 ---
+
+{% include section.html size="full" %}
+
+{%
+  include hero.html
+  image="images/banner_image_1280.png"
+  title="Colquitt Lab at UCSC"
+  subtitle="development and evolution of complex motor skills"
+%}
 
 {% include section.html %}
 

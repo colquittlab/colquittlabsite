@@ -1,0 +1,15 @@
+<div class="hero">
+  <img
+    class="hero-image"
+    src="{{ include.image | relative_url | uri_escape }}"
+    alt="{{ include.title | default: "hero image" | regex_strip }}"
+  >
+  <div class="hero-text">
+    {% if include.title %}
+      <p class="hero-title">{{ include.title }}</p>
+    {% endif %}
+    {% if include.subtitle %}
+      <p class="hero-subtitle">{{ include.subtitle }}</p>
+    {% endif %}
+  </div>
+</div>
