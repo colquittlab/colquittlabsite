@@ -100,3 +100,31 @@ We publish our findings across neuroscience, genomics, and evolutionary biology.
   text=text
   contain=true
 %}
+
+{% include section.html %}
+
+## News
+{:.center}
+
+{% for post in site.posts limit:3 %}
+{%
+  include post-excerpt.html
+  title=post.title
+  url=post.url
+  date=post.date
+  author=post.author
+  image=post.image
+  tags=post.tags
+  content=post.content
+  last_modified_at=post.last_modified_at
+%}
+{% endfor %}
+
+{%
+  include link.html
+  link="news"
+  text="See all news"
+  icon="fas fa-arrow-right"
+  flip=true
+%}
+{:.center}
