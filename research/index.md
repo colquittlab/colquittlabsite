@@ -83,9 +83,18 @@ We compare the cellular composition, molecular identity, and developmental histo
   width="auto"
 %}
 {% endcapture %}
+{% capture col3 %}
+
+{%
+  include figure.html
+  image="images/mcknight.jpg"
+  width="auto"
+%}
+{% endcapture %}
 
 {%
   include cols.html
   col1=col1
   col2=col2
+  col3=col3
 %}
