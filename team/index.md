@@ -86,9 +86,7 @@ image="images/lab_photo_holiday_2024.jpg"
 
 ### Postdoctoral Researcher
 
-We are looking for postdocs interested in bringing fresh ideas and skill sets to questions in developmental and evolutionary neurobiology. We are looking for candidates with a strong background in molecular biology (including the generation and/or analysis of diverse sequencing approaches, gene editing), developmental biology (including embryo manipulation), and/or design and analysis of behavioral experiments.
-
-Please email Brad a CV and a cover letter describing your research background, current interests, and how you think you could contribute to ongoing work or new directions in the lab.
+Although we are not currently looking for postdocs, if you are interested, please email Brad a CV and a cover letter describing your research background, current interests, and how you think you could contribute to ongoing work or new directions in the lab.
 
 ### Graduate students
 
